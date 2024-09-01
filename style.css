@@ -1,0 +1,25 @@
+li {
+	list-style-type: none;
+}
+.myCarousel {
+ 	background-color: #FF0000; 
+}
+.line {
+	padding-left: 30px;
+	width: 100px;
+	height: 7px;
+	background-color: blue;
+	position: relative;
+}
+.img-text {
+	position: relative;
+  	text-align: center;
+  	color: green;
+}
+.centered {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+}
