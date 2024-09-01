@@ -1,2 +1,3 @@
 # Cake-o-mania
-Cak-o-mania
+A website for cakes
+
