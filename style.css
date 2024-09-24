@@ -1,25 +1,126 @@
 li {
 	list-style-type: none;
 }
+
+.menu-items li {
+	display: flex;
+}
+
+.menu-bar {
+	margin-top: 2%;
+	display: flex;
+	margin-left: 3%;
+	margin-right: 15%;
+	justify-content: space-between;
+}
+
+.title-screen {
+	font-size: 60px;
+	padding-bottom: 5px;
+	padding-left: 500px;
+	font-family: "Jokerman";
+}
+
+.menu-item {
+	padding-top:1%;
+	padding-bottom: 10%;
+	height:75%;
+	width: 100px;
+	border: black solid 2px;
+	margin-left:20%;
+	padding-left: 4%;
+	width: 125%; 
+	font-family: "Showcard Gothic";
+	background-color: #0096FF;
+	font-size: xx-large;
+	color: black;
+}
+
+.menu-item-div {
+	padding-left: 1%;
+	padding-right: 2.5%; 
+	padding-top:2%; 
+	padding-bottom:2%;
+}
+
+.menu-line {
+	height: 22%;
+	width: 65%;
+	background-color: blue;
+	color: blue;
+}
+
+.menu-item-link:link:hover {
+	text-decoration: none;
+}
+
+.menu-item-link:link {
+	text-decoration: none;
+}
+
+.menu-item-link:link:visited {
+	text-decoration: none;
+}
+
+.menu-item-link:link:active {
+	text-decoration: none;
+}
+
 .myCarousel {
  	background-color: #FF0000; 
 }
-.line {
+.section-line {
 	padding-left: 30px;
-	width: 100px;
-	height: 7px;
-	background-color: blue;
+	border: dashed white 5px;
+	width: 20%;
+	height: 10%;
+	background-color: #FF1493;
 	position: relative;
 }
-.img-text {
-	position: relative;
-  	text-align: center;
-  	color: green;
+
+.footer-bar {
+	display: flex;
 }
-.centered {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: cursive;
+
+.footer-text {
+	color: #FF1493;
+	font-size: x-large;
+	padding-left :10%;
+	padding-top: 4%;
+}
+
+.gamechangers-section {
+	text-align: center;
+}
+
+.gamechanger-cakes {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-top: red dotted 10px;
+	border-bottom: blue dotted 10px;
+	border-right: yellow dashed 10px;
+	border-left: greenyellow dashed 25px;
+}
+
+.section-headers {
+	margin-left: 3%; 
+	background-color: #0096FF; 
+	padding-left: 1%;
+	padding-right: 1%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 25%;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 25%;
+	border-top: black 8px solid;
+	border-bottom: black 8px solid;
+	border-right: black 8px dotted;
+	border-left: black 8px dotted;
+	font-size: 220%;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 2.3px;
+	color: whitesmoke;
+	font-family: "Showcard Gothic"; 
+	width: 25%;
 }
