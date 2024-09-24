@@ -64,7 +64,7 @@
 
 .section-line {
 	padding-left: 30px;
-	border: dashed white 5px;
+	border: dashed white 4px;
 	width: 20%;
 	height: 10%;
 	background-color: #FF1493;
@@ -108,8 +108,8 @@
 	border-bottom-right-radius: 25%;
 	border-top: black 8px solid;
 	border-bottom: black 8px solid;
-	border-right: yellow 8px dotted;
-	border-left: greenyellow 8px dotted;
+	border-right: black 8px dotted;
+	border-left: black 8px dotted;
 	font-size: 220%;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: 2.3px;
