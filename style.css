@@ -1,16 +1,8 @@
-li {
-	list-style-type: none;
-}
-
-.menu-items li {
-	display: flex;
-}
-
 .menu-bar {
 	margin-top: 2%;
 	display: flex;
 	margin-left: 3%;
-	margin-right: 15%;
+	margin-right: 8%;
 	justify-content: space-between;
 }
 
@@ -69,6 +61,7 @@ li {
 .myCarousel {
  	background-color: #FF0000; 
 }
+
 .section-line {
 	padding-left: 30px;
 	border: dashed white 5px;
