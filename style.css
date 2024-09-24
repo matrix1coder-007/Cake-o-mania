@@ -115,8 +115,8 @@ li {
 	border-bottom-right-radius: 25%;
 	border-top: black 8px solid;
 	border-bottom: black 8px solid;
-	border-right: black 8px dotted;
-	border-left: black 8px dotted;
+	border-right: yellow 8px dotted;
+	border-left: greenyellow 8px dotted;
 	font-size: 220%;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: 2.3px;
